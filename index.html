@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Register form</legend>
+            <table>
+                <tr>
+                    <td><label for="txt">Name</label></td>
+                    <td><input type="text" name="txt" id="" placeholder="Name" required size="15"></td>
+                </tr>
+                <tr>
+                    <td><label for="txt">Surname</label></td>
+                    <td><input type="text" name="txt" id="" placeholder="Surname" required size="15"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="" placeholder="Email" required size="15"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td><label for="gender">Male</label>
+                        <input type="radio" name="gender" id="v">
+                        <label for="gender">Female</label>
+                        <input type="radio" name="gender" id="v">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="file">Picture</label></td>
+                    <td><input type="file" name="file" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="place">Country</label></td>
+                    <td><select name="place" id="">
+                            <option value="GE">Germany</option>
+                            <option value="UK">UK</option>
+                            <option value="FR">France</option>
+                            <option value="JP">Japan</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="lang">Preferred languages</label></td>
+                    <td><select name="lang" multiple="multiple" size="4" id="">
+                            <option value="html">HTML</option>
+                            <option value="css">CSS</option>
+                            <option value="js">JS</option>
+                            <option value="react">React</option>
+                            <option value="python">Python</option>
+                            <option value="java">Java</option>
+                            <option value="c#">C#</option>
+                            <option value="c++">C++</option>
+
+                        </select>
+                        <span>(To choose more than on use cmd key)</span>
+                    </td>
+                    (To choose more than on use cmd key)
+                </tr>
+
+                <tr>
+                    <td><label for="activity">Field of activity</label></td>
+                    <td>
+                        <input type="checkbox" name="activity" id="v">
+                        <label for="activity">IT</label>
+                        <input type="checkbox" name="activity" id="v">
+                        <label for="activity">Design</label>
+                        <input type="checkbox" name="activity" id="">
+                        <label for="activity">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" value="Send">
+                        <input type="reset" value="Cancel">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
